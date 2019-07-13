@@ -1,0 +1,31 @@
+{
+  "name": "weather-pwa",
+  "version": "1.0.0",
+  "description": "A PWA to display weather forecast for selected cities.",
+  "homepage": "https://github.com/bigdatasg",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-http-to-https": "^1.1.4",
+    "node-fetch": "^2.3.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bigdatasg/weather-pwa"
+  },
+  "bugs": {
+    "url": "https://github.com/bigdatasg/weather-pwa/issues"
+  },
+  "license": "Apache2",
+  "keywords": [
+    "progressive-web-app",
+    "pwa",
+    "installable web app"
+  ]
+}

@@ -58,7 +58,7 @@ const FILES_TO_CACHE = [
 
 // The Service Worker "install" event
 // TODO: Uncomment the below block when prompted!
-/*
+
 self.addEventListener('install', (evt) => {
   console.log('[ServiceWorker] Install');
 
@@ -71,7 +71,6 @@ self.addEventListener('install', (evt) => {
   );
   self.skipWaiting();
 });
-*/
 
 // The Service Worker "activate" event (Function 1 - Basic offline XP)
 // TODO: Uncomment the following block when prompted!

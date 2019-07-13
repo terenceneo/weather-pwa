@@ -74,7 +74,7 @@ self.addEventListener('install', (evt) => {
 
 // The Service Worker "activate" event (Function 1 - Basic offline XP)
 // TODO: Uncomment the following block when prompted!
-/*
+
 self.addEventListener('activate', (evt) => {
   console.log('[ServiceWorker] activate');
   // TODO: Remove previous cached data from disk.
@@ -90,7 +90,7 @@ self.addEventListener('activate', (evt) => {
   );
   self.clients.claim();
 });
-*/
+
 
 // The Service Worker "activate" event (Function 2 - Functional offline XP)
 // TODO: Uncomment the following block when prompted!
